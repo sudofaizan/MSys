@@ -107,7 +107,7 @@ try {
     $mail->setFrom('from@example.com', 'Mailer');
     $mail->addAddress('joe@example.net', 'Joe User');     //Add a recipient
     $mail->addAddress('ellen@example.com');               //Name is optional
-    $mail->addReplyTo('hrd@mclansyssolutions.in', 'Information');
+    $mail->addReplyTo('hrd@mclansyssolutions.in,info@mclansyssolutions.in', 'Information');
     $mail->addCC('cc@example.com');
     $mail->addBCC('bcc@example.com');
 
